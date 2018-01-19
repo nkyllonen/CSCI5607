@@ -3,7 +3,7 @@
 //Nikki Kyllonen - kyllo089
 ////////////////////////////
 
-#include "glad/glad.h"  //Include order can matter here
+#include "glad.h"  //Include order can matter here
 
 #ifdef __APPLE__
 #include <SDL2/SDL.h>
