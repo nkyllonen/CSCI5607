@@ -1,0 +1,7 @@
+# Dimensions (Level width, Level height, number of levels)
+5,5,1
+0,0,0,0,G
+0,W,W,W,W
+0,0,0,0,K2
+W,W,0,W,W
+S,0,0,0,K1
