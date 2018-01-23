@@ -4,7 +4,7 @@
 //Nikki Kyllonen - kyllo089
 ////////////////////////////
 
-#include "glad/glad.h"  //Include order can matter here
+#include "glad.h"  //Include order can matter here
 
 #ifdef __APPLE__
 #include <SDL2/SDL.h>
@@ -444,7 +444,7 @@ int main(int argc, char *argv[]) {
 SDL_Window* initSDL(SDL_GLContext& context)
 {
 	SDL_Init(SDL_INIT_VIDEO);  //Initialize Graphics (for OpenGL)
-	
+
 	//Ask SDL to get a recent version of OpenGL (3.2 or greater)
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);

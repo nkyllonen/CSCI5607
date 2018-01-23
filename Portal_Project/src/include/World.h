@@ -99,8 +99,8 @@ public:
 	void removeWO(Vec3D pos);
 	void movePortal(WO_Portal* portal, Vec3D pos);
 	void shootPortal(Vec3D pos, Vec3D dir, int time, WO_Portal* portal);
-	void World::drawNonPortals(Camera * cam, GLuint shaderProgram, GLuint uniTexID, glm::mat4 const& view, glm::mat4 const& proj);
-	void World::drawSinglePortal(WO_Portal* portal, Camera * cam, GLuint shaderProgram, GLuint uniTexID,
+	void drawNonPortals(Camera * cam, GLuint shaderProgram, GLuint uniTexID, glm::mat4 const& view, glm::mat4 const& proj);
+	void drawSinglePortal(WO_Portal* portal, Camera * cam, GLuint shaderProgram, GLuint uniTexID,
 		glm::mat4 const &viewMat, glm::mat4 const &projMat, glm::mat4 const &destModel, int maxRecLevel, int cur_recLevel);
 
 };
